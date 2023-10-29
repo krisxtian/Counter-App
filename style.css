@@ -1,0 +1,56 @@
+* > div {
+    box-sizing: border-box;
+    justify-content: center;
+}
+.container{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter-div{
+ width: 40rem;
+ background-color: blue;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+}
+
+.counter{
+    font-size: 50px;
+}
+
+.buttons{
+    padding: 20px
+}
+.add{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: green ; 
+    border-radius: 5px;
+
+}
+
+.resetbtn{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color:white; 
+    border-radius: 5px;
+
+}
+.sub{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: yellow; 
+    border-radius: 5px;
+
+}
